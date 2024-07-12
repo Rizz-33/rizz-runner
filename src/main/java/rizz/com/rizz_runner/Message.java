@@ -1,5 +1,4 @@
-package rizz.com.rizz_runner.classes;
-
+package rizz.com.rizz_runner;
 import org.springframework.stereotype.Component;
 
 @Component
