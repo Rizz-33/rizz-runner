@@ -1,17 +1,16 @@
 package rizz.com.rizz_runner;
 
-import org.springframework.boot.SpringApplication;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class RizzRunnerApplication {
 
-	public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(RizzRunnerApplication.class, args);
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(RizzRunnerApplication.class);
 
-        Message message = (Message) context.getBean("message");
-		System.out.println(message.getMessage());
+	public static void main(String[] args) {
+        
+		logger.info("Starting RizzRunner");
     }
 
 
