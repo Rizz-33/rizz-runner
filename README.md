@@ -27,7 +27,7 @@ To set up the Rizz Runner application on your local machine, follow these steps:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/yourusername/rizz-runner.git
+   git clone https://github.com/Rizz-33/rizz-runner.git
    cd rizz-runner
    ```
 
