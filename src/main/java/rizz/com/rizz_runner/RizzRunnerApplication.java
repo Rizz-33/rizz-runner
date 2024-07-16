@@ -10,7 +10,7 @@ public class RizzRunnerApplication {
 
 	public static void main(String[] args) {
         
-		logger.info("Starting RizzRunner");
+		logger.info("Starting RizzRunner Successfully");
     }
 
 
