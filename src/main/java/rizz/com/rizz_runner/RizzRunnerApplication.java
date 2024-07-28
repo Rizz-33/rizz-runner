@@ -2,6 +2,7 @@ package rizz.com.rizz_runner;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -17,4 +18,10 @@ public class RizzRunnerApplication {
         
         logger.info("RizzRunnerApplication has started");
     }
+
+	CommandLineRunner runner() {
+		return args -> {
+            logger.info("RizzRunnerApplication is running");
+        };
+	}
 }
